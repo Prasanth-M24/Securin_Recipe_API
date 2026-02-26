@@ -36,9 +36,9 @@ Example:
     "proteinContent": "6 g",  
     "fatContent": "25 g"  
   },  
-  "serves": "6 servings"
+  "serves": "6 servings"  
 }
 
-To get the top rating food with limit value use the API: http://localhost:8080/recipes/top ,Then in key = limit, value = "any number"
-Or use: http://localhost:8080/recipes/top?limit=2
-Use this link for top 2 according to the Rating.
+To get the top rating food with limit value use the API: http://localhost:8080/recipes/top ,Then in key = limit, value = "any number"  
+Or use: http://localhost:8080/recipes/top?limit=2  
+Use this link for top 2 according to the Rating.  
