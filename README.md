@@ -1,18 +1,17 @@
-Code
-Clone the repository :git clone repository_link
+Code: Clone the repository :git clone repository_link
 
-DataBase Setup
+DataBase Setup: 
 In application.property change the user_name and password.
 Create the database using the given command: CREATE DATABASE recipedb
 Table need not be create.
 (Optional) If you want manually to select the data use command: SELECT * FROM recipes
 
-API Testing
+API Testing: 
 To run the spring application use the command: mvn spring-boot:run
 Use Postman to parse the JSON data/file:Open the Postman and go to the POST request and use the link to upload the JSON file: http://localhost:8080/upload
 In body select the form-data and give:Key = file, Change the file type as Text → File, Then click the Send option.
 
-Add a new Recipe
+Add a new Recipe: 
 In Postman change to POST and use: http://localhost:8080/recipe
 
 Select body and then choose raw then give the input as JSON.
