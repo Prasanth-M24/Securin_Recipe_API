@@ -4,15 +4,15 @@ Create the database using the given command: CREATE DATABASE recipedb
 Table need not be create.
 (Optional) If you want manually to select the data use command: SELECT * FROM recipes
 
-spring.application.name=recipe
-spring.datasource.url=jdbc:mysql://localhost:3306/database_name => change database name here
-spring.datasource.username=root => user_name
-spring.datasource.password=PASSWORD => your_password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.servlet.multipart.max-file-size=100MB
-spring.servlet.multipart.max-request-size=100MB
-server.port=8080
+spring.application.name=recipe  
+spring.datasource.url=jdbc:mysql://localhost:3306/database_name => change database name here  
+spring.datasource.username=root => user_name  
+spring.datasource.password=PASSWORD => your_password  
+spring.jpa.hibernate.ddl-auto=update  
+spring.jpa.show-sql=true  
+spring.servlet.multipart.max-file-size=100MB  
+spring.servlet.multipart.max-request-size=100MB  
+server.port=8080  
 
 
 API Testing: 
