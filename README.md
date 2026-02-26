@@ -12,9 +12,7 @@ Use Postman to parse the JSON data/file:Open the Postman and go to the POST requ
 In body select the form-data and give:Key = file, Change the file type as Text → File, Then click the Send option.
 
 Add a new Recipe: 
-In Postman change to POST and use: http://localhost:8080/recipe
-
-Select body and then choose raw then give the input as JSON.
+In Postman change to POST and use: http://localhost:8080/recipe, Select body and then choose raw then give the input as JSON.
 Example:
 {
   "title": "Chocolate Cake",
