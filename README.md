@@ -1,5 +1,3 @@
-Code: Clone the repository :git clone repository_link
-
 DataBase Setup: 
 In application.property change the user_name and password.
 Create the database using the given command: CREATE DATABASE recipedb
